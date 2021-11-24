@@ -20,11 +20,12 @@
         Buefy
       </v-btn>
     </a>
-   <!-- <a href="#Matvue">
+   <!-- -->
+   <a href="#Matvue">
       <v-btn>
         MaterialVue
       </v-btn>
-    </a>-->
+    </a>
       <v-btn>
         Otro
       </v-btn>
@@ -35,12 +36,17 @@
   <div id="Vuetify">
     <v-container>
       <logovuetifyv/>
+      <div class="spa-ele"></div>
         <bttnsheetp/>
         <bttnsheet/>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
         <bttnload/>
         <dialogload/>
+      <div class="spa-ele"></div>
        <hr class="solid">
+       <div class="spa-ele"></div>
        <v-row>
          <v-col>
           <cardsdsc/>
@@ -52,9 +58,13 @@
            <cardsdsc3/>
          </v-col>
        </v-row>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
         <selectvbx/>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <v-row>
         <h1 class="faq">Preguntas Frecuentes</h1>
       </v-row>
@@ -66,12 +76,19 @@
           <expandd/>
         </v-col>
       </v-row>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
         <calendarvutfy/>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
         <stprh/>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
         <stprhv/>
+      <div class="spa-ele"></div>
     </v-container>
   </div>
 
@@ -79,11 +96,16 @@
   <div id="Bootstrap-vue">
     <v-container>
       <hr class="dashed">
+      <div class="spa-ele"></div>
       <logobootsv/>
+      <div class="spa-ele"></div>
       <alrtsB/>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <dateB/>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <v-row>
         <v-col>
           <rteB/>
@@ -92,8 +114,10 @@
           <rte2B/>
         </v-col>
       </v-row>
+      <div class="spa-ele"></div>
       <hr class="solid">
       <tgleB/>
+      <div class="spa-ele"></div>
     </v-container>
   </div>
  
@@ -102,9 +126,12 @@
   <div id="Buefy">
     <v-container>
       <hr class="dashed">
+      <div class="spa-ele"></div>
       <logobfy/>
+      <div class="spa-ele"></div>
       <compbtnbfy/>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <v-row>
         <v-col>
           <bfys/>
@@ -113,9 +140,13 @@
           <bfys2/>
         </v-col>
       </v-row>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <mjsbfy/>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <v-row>
         <v-col>
           <datBfy/>
@@ -124,26 +155,42 @@
           <dat2Bfy/>
         </v-col>
       </v-row>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <stpbfy/>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <toglbfy/>
+      <div class="spa-ele"></div>
       <hr class="solid">
+      <div class="spa-ele"></div>
       <tlebfy/>
       <hr class="solid">
+      <div class="spa-ele"></div>
     </v-container>
     </div>
 
-    <!--Matvue
+    <!--Matvue-->
   <div id="Matvue">
     <v-container>
       <hr class="dashed">
+      <div class="spa-ele"></div>
       <logovmat/>
       <trjmat/>
+      <div class="spa-ele"></div>
       <hr class="solid">
-      
+      <div class="spa-ele"></div>
+      <shwdialmat/>
+      <div class="spa-ele"></div>
+      <hr class="solid">
+      <tartmat/>
+      <div class="spa-ele"></div>
+      <hr class="solid">
+      <br class="solid">
     </v-container>
-  </div>-->
+  </div>
 
 
   <div class="scroll-to-top">
@@ -186,6 +233,9 @@
   import Mjsbfy from './components/Mjsbfy.vue'
   import Logovmat from './components/Logovmat.vue'
   import Trjmat from './components/Trjmat.vue'
+  import Tartmat from './components/Tartmat.vue'
+  import Shwdialmat from './components/Shwdialmat.vue'
+  
 
   export default {
     data: () => ({ value: 0 }),
@@ -252,6 +302,8 @@
       "mjsbfy":Mjsbfy,
       "logovmat":Logovmat,
       "trjmat":Trjmat,
+      "tartmat":Tartmat,
+      "shwdialmat":Shwdialmat,
     }
   };
 </script>
@@ -280,6 +332,9 @@ hr.dashed {
   position: fixed;
   padding: 30px 0;
    cursor: pointer;
+}
+.spa-ele{
+  margin-bottom: 6em;
 }
 
 </style>

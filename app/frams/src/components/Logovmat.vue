@@ -9,5 +9,6 @@
 <style scoped>
 .logo--vuetify{
     margin-top: 1em;
+    margin-bottom: 4em;
 }
 </style>
