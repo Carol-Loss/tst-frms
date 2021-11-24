@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  app-vue:
+    build:
+      context: ./frams
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: app-vue
+    volumes:
+      - ./frams:/usr/src/app/frams
+      - /usr/src/app/frams/node_modules
+    
+    
